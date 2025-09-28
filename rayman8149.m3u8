@@ -1,340 +1,340 @@
-#EXTM3U x-tvg-url="http://www.teleguide.info/download/new3/xmltv.xml.gz"
+#EXTM3U x-tvg-url="http://www.teleguide.info/download/new3/xmltv.xml.gz,http://raw.githubusercontent.com/Lorax121/everyday_epg_update/main/data/EPG_LITE.xml.gz"
 
-#EXTINF:0 group-title="Развлекательные",ТВ3 HD (fed)
+#EXTINF:0 group-title="Развлекательные;fed",ТВ3 HD
 #EXTVLCOPT:network-caching=1000
 http://srv-1-streaming.iptvin.online:8080/tv3_hd/video.m3u8?token=fb9dd0559fdf09d3a9c4fc8708edd2409fc62ec3-9350487012-1759093716-1759050516
-#EXTINF:0 group-title="Развлекательные",Пятница HD (fed)
+#EXTINF:0 group-title="Развлекательные;fed",Пятница HD
 #EXTVLCOPT:network-caching=1000
 http://srv-1-streaming.iptvin.online:8080/friday_hd/video.m3u8?token=a708e0983d0b1635edc64abfad551d19bf3543b3-9350487012-1759093716-1759050516
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК HD (fed)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;fed",РБК HD
 #EXTVLCOPT:network-caching=1000
 http://srv-1-streaming.iptvin.online:8080/rbctv/video.m3u8?token=adda3cbfcd66e5b853251d8e9c0842573808304d-9350487012-1759093716-1759050516
 
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (kya)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;kya",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/225.54.223.66:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК (kya)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;kya",РБК
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.35:5000
-#EXTINF:0 group-title="Кино и сериалы",viju TV1000 (kya)
+#EXTINF:0 group-title="Кино и сериалы;kya",viju TV1000
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.53:5000
-#EXTINF:0 group-title="Кино и сериалы",НСТ (kya)
+#EXTINF:0 group-title="Кино и сериалы;kya",НСТ
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.39:5000
-#EXTINF:0 group-title="Познавательные",viju Explore (kya)
+#EXTINF:0 group-title="Познавательные;kya",viju Explore
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.16:5000
-#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные",viju History (kya)
+#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные;kya",viju History
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.17:5000
-#EXTINF:0 group-title="Познавательные",viju Nature (kya)
+#EXTINF:0 group-title="Познавательные;kya",viju Nature
 #EXTVLCOPT:network-caching=1000
 http://176.49.244.77:1234/udp/233.7.70.22:5000
 
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (nsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;nsk",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.223.3:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (nsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;nsk",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.223.66:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (nsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;nsk",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.35:5000
-#EXTINF:0 group-title="Кино и сериалы",Amedia 1 (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Amedia 1
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.136:5000
-#EXTINF:0 group-title="Кино и сериалы",Amedia 2 (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Amedia 2
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.52:5000
-#EXTINF:0 group-title="Кино и сериалы",Amedia Hit HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Amedia Hit HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.167:5000
-#EXTINF:0 group-title="Кино и сериалы",Amedia Premium (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Amedia Premium
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.172:5000
-#EXTINF:0 group-title="Кино и сериалы",Bollywood HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Bollywood HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.9:5000
-#EXTINF:0 group-title="Кино и сериалы",Cinema (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Cinema
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.36:5000
-#EXTINF:0 group-title="Кино и сериалы",Kinoliving HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Kinoliving HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.11:5000
-#EXTINF:0 group-title="Кино и сериалы",Plan B (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Plan B
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.33:5000
-#EXTINF:0 group-title="Кино и сериалы",START Air (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",START Air
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.50:5000
-#EXTINF:0 group-title="Кино и сериалы",START World (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",START World
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.51:5000
-#EXTINF:0 group-title="Кино и сериалы",Shot TV HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Shot TV HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.7:5000
-#EXTINF:0 group-title="Кино и сериалы",TV XXI (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",TV XXI
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.38:5000
-#EXTINF:0 group-title="Кино и сериалы",Ultra HD Cinema 4K (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Ultra HD Cinema 4K
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.10:5000
-#EXTINF:0 group-title="Кино и сериалы",viju TV1000 action (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",viju TV1000 action
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.185:5000
-#EXTINF:0 group-title="Кино и сериалы",viju TV1000 (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",viju TV1000
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.53:5000
-#EXTINF:0 group-title="Кино и сериалы",viju+ Megahit (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",viju+ Megahit
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.215:5000
-#EXTINF:0 group-title="Кино и сериалы",Дом кино Премиум HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Дом кино Премиум HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.183:5000
-#EXTINF:0 group-title="Кино и сериалы",Дом кино (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Дом кино
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.140:5000
-#EXTINF:0 group-title="Кино и сериалы",Дорама (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Дорама
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.158:5000
-#EXTINF:0 group-title="Кино и сериалы",Иллюзион + (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Иллюзион +
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.206:5000
-#EXTINF:0 group-title="Кино и сериалы",Индия (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Индия
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.41:5000
-#EXTINF:0 group-title="Кино и сериалы",КИНЕКО (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",КИНЕКО
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.203:5000
-#EXTINF:0 group-title="Кино и сериалы",Кино ТВ (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Кино ТВ
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.198:5000
-#EXTINF:0 group-title="Кино и сериалы",Кинокомедия (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Кинокомедия
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.181:5000
-#EXTINF:0 group-title="Кино и сериалы",Киномикс (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Киномикс
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.179:5000
-#EXTINF:0 group-title="Кино и сериалы",Любимое кино (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Любимое кино
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.207:5000
-#EXTINF:0 group-title="Кино и сериалы",Мир сериала (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Мир сериала
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.129:5000
-#EXTINF:0 group-title="Кино и сериалы",Мосфильм. Золотая коллекция HD (+4) (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Мосфильм. Золотая коллекция HD (+4)
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.5:5000
-#EXTINF:0 group-title="Кино и сериалы",Мужское кино (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Мужское кино
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.176:5000
-#EXTINF:0 group-title="Кино и сериалы",НСТ (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",НСТ
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.39:5000
-#EXTINF:0 group-title="Кино и сериалы",Страшное HD (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Страшное HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.6:5000
-#EXTINF:0 group-title="Кино и сериалы",Феникс+ Кино (nsk)
+#EXTINF:0 group-title="Кино и сериалы;nsk",Феникс+ Кино
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.40:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV (nsk)
+#EXTINF:0 group-title="Музыкальные;nsk",Bridge TV
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.4:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV Classic (nsk)
+#EXTINF:0 group-title="Музыкальные;nsk",Bridge TV Classic
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.2:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV Hits (nsk)
+#EXTINF:0 group-title="Музыкальные;nsk",Bridge TV Hits
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.190:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV Rock (nsk)
+#EXTINF:0 group-title="Музыкальные;nsk",Bridge TV Rock
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.12:5000
-#EXTINF:0 group-title="Познавательные",Big Planet (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",Big Planet
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.13:5000
-#EXTINF:0 group-title="Познавательные",Galaxy HD (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",Galaxy HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.19:5000
-#EXTINF:0 group-title="Познавательные",HDL HD (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",HDL HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.52:5000
-#EXTINF:0 group-title="Познавательные",Ocean TV (nsk)
+#EXTINF:0 group-title="Познавательные",Ocean TV
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.18:5000
-#EXTINF:0 group-title="Познавательные",Quadro 4K (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",Quadro 4K
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.24:5000
-#EXTINF:0 group-title="Познавательные",viju Explore (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",viju Explore
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.16:5000
-#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные",viju History (nsk)
+#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные;nsk",viju History
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.17:5000
-#EXTINF:0 group-title="Познавательные",viju Nature
+#EXTINF:0 group-title="Познавательные;nsk",viju Nature
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/233.7.70.22:5000
-#EXTINF:0 group-title="Познавательные",Моя Планета HD (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",Моя Планета HD
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.191:5000
-#EXTINF:0 group-title="Познавательные",Наука 2.0 (nsk)
+#EXTINF:0 group-title="Познавательные;nsk",Наука 2.0
 #EXTVLCOPT:network-caching=1000
 http://5.137.205.173:1234/udp/225.54.225.132:5000
 
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (Новосибирск) (rt-omsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;rt-omsk",РБК ТВ (Новосибирск)
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/225.54.223.3:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (Новосибирск) (rt-omsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;rt-omsk",РБК ТВ (Новосибирск)
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/225.54.223.66:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (Омск) (rt-omsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;rt-omsk",РБК ТВ (Омск)
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/225.54.206.49:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (Омск) (rt-omsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;rt-omsk",РБК ТВ (Омск)
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/225.54.206.53:5000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (rt-omsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;rt-omsk",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.35:5000
-#EXTINF:0 group-title="Кино и сериалы",Cinema (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",Cinema
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.36:5000
-#EXTINF:0 group-title="Кино и сериалы",Plan B (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",Plan B
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.33:5000
-#EXTINF:0 group-title="Кино и сериалы",TV XXI (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",TV XXI
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.38:5000
-#EXTINF:0 group-title="Кино и сериалы",viju TV1000 (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",viju TV1000
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.53:5000
-#EXTINF:0 group-title="Кино и сериалы",Индия (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",Индия
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.41:5000
-#EXTINF:0 group-title="Кино и сериалы",НСТ (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",НСТ
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.39:5000
-#EXTINF:0 group-title="Кино и сериалы",Ретро ТВ (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",Ретро ТВ
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.42:5000
-#EXTINF:0 group-title="Кино и сериалы",Феникс плюс кино (rt-omsk)
+#EXTINF:0 group-title="Кино и сериалы;rt-omsk",Феникс плюс кино
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.40:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV Classic (rt-omsk)
+#EXTINF:0 group-title="Музыкальные;rt-omsk",Bridge TV Classic
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.2:5000
-#EXTINF:0 group-title="Музыкальные",Bridge TV (rt-omsk)
+#EXTINF:0 group-title="Музыкальные;rt-omsk",Bridge TV
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.4:5000
-#EXTINF:0 group-title="Познавательные",viju Explore (rt-omsk)
+#EXTINF:0 group-title="Познавательные;rt-omsk",viju Explore
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.16:5000
-#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные",viju History (rt-omsk)
+#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные;rt-omsk",viju History
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.17:5000
-#EXTINF:0 group-title="Познавательные",viju Nature (rt-omsk)
+#EXTINF:0 group-title="Познавательные;rt-omsk",viju Nature
 #EXTVLCOPT:network-caching=1000
 http://2.60.16.243:1234/udp/233.7.70.22:5000
 
-#EXTINF:0 group-title="Познавательные",Наука 2.0 (tgl)
+#EXTINF:0 group-title="Познавательные;tgl",Наука 2.0
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.226:2000
-#EXTINF:0 group-title="Познавательные",Galaxy (tgl)
+#EXTINF:0 group-title="Познавательные;tgl",Galaxy
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.111:2000
-#EXTINF:0 group-title="Кино и сериалы",A1 (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",A1
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.155:2000
-#EXTINF:0 group-title="Кино и сериалы",AMEDIA Hit (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",AMEDIA Hit
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.169:2000
-#EXTINF:0 group-title="Кино и сериалы",A2 (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",A2
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.184:2000
-#EXTINF:0 group-title="Кино и сериалы",Trash HD (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Trash HD
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.3:2000
-#EXTINF:0 group-title="Кино и сериалы",TV_XXI (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",TV_XXI
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.187:2000
-#EXTINF:0 group-title="Кино и сериалы",Дом кино (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Дом кино
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.219:2000
-#EXTINF:0 group-title="Кино и сериалы",Еврокино (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Еврокино
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.176:2000
-#EXTINF:0 group-title="Кино и сериалы",Иллюзион+ (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Иллюзион+
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.175:2000
-#EXTINF:0 group-title="Кино и сериалы",Любимое кино (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Любимое кино
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.102:2000
-#EXTINF:0 group-title="Кино и сериалы",Кинокомедия (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Кинокомедия
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.118:2000
-#EXTINF:0 group-title="Кино и сериалы",Киномикс (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Киномикс
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.222:2000
-#EXTINF:0 group-title="Кино и сериалы",Кинопоказ (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Кинопоказ
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.209:2000
-#EXTINF:0 group-title="Кино и сериалы",Киносерия (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Киносерия
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.119:2000
-#EXTINF:0 group-title="Кино и сериалы",КиноТВ (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",КиноТВ
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.154:2000
-#EXTINF:0 group-title="Кино и сериалы",Мир сериала (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Мир сериала
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.103:2000
-#EXTINF:0 group-title="Кино и сериалы",Мосфильм.Золотая коллекция (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Мосфильм.Золотая коллекция
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.95:2000
-#EXTINF:0 group-title="Кино и сериалы",Мужское кино (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Мужское кино
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.213:2000
-#EXTINF:0 group-title="Кино и сериалы",Киноужас (tgl)
+#EXTINF:0 group-title="Кино и сериалы;tgl",Киноужас
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.114:2000
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК HD (tgl)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;tgl",РБК HD
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.151:2000
-#EXTINF:0 Bridge Classic (tgl)
+#EXTINF:0 group-title="Музыкальные;tgl",Bridge Classic
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.223:2000
-#EXTINF:0 group-title="Музыкальные",Bridge Русский Хит (tgl)
+#EXTINF:0 group-title="Музыкальные;tgl",Bridge Русский Хит
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.179:2000
-#EXTINF:0 group-title="Музыкальные",BridgeTV (tgl)
+#EXTINF:0 group-title="Музыкальные;tgl",BridgeTV
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.180:2000
-#EXTINF:0 group-title="Музыкальные",Europe+ TV (tgl)
+#EXTINF:0 group-title="Музыкальные;tgl",Europe+ TV
 #EXTVLCOPT:network-caching=1000
 http://178.163.12.227:4022/udp/234.0.0.183:2000
 
-#EXTINF:0 tvg-id="rbk" group-title="Информационные",РБК ТВ (ttknsk)
+#EXTINF:0 tvg-id="rbk" group-title="Информационные;ttknsk",РБК ТВ
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.19:1224
-#EXTINF:0 group-title="Кино и сериалы",TV1000 Action (ttknsk)
+#EXTINF:0 group-title="Кино и сериалы;ttknsk",TV1000 Action
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.111:1234
-#EXTINF:0 group-title="Кино и сериалы",viju TV1000 (ttknsk)
+#EXTINF:0 group-title="Кино и сериалы;ttknsk",viju TV1000
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.91:1234
-#EXTINF:0 group-title="Музыкальные",Bridge TV Classic (ttknsk)
+#EXTINF:0 group-title="Музыкальные;ttknsk",Bridge TV Classic
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.5:1224
-#EXTINF:0 group-title="Музыкальные",Bridge TV (ttknsk)
+#EXTINF:0 group-title="Музыкальные;ttknsk",Bridge TV
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.9:1224
-#EXTINF:0 group-title="Музыкальные",Europa Plus TV (ttknsk)
+#EXTINF:0 group-title="Музыкальные;ttknsk",Europa Plus TV
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.88:1224
-#EXTINF:0 group-title="Познавательные",viju Explore (ttknsk)
+#EXTINF:0 group-title="Познавательные;ttknsk",viju Explore
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.92:1234
-#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные",viju History (ttknsk)
+#EXTINF:0 tvg-id="viasat-history" group-title="Познавательные;ttknsk",viju History
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.93:1234
-#EXTINF:0 group-title="Познавательные",viju Nature (ttknsk)
+#EXTINF:0 group-title="Познавательные;ttknsk",viju Nature
 #EXTVLCOPT:network-caching=1000
 http://109.171.40.217:10001/udp/239.54.5.90:1234
